@@ -1,0 +1,7 @@
+beautifulsoup4==4.4.1
+html2text==2016.1.8
+PyGithub==1.26.0
+PyYAML==3.11
+regex==2016.1.10
+requests==2.9.1
+wheel==0.29.0

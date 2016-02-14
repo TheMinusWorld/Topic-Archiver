@@ -1,0 +1,34 @@
+# Seconds to wait before each request
+sleep: 5
+# output file
+output: suggestions.json
+# Forum
+forum:
+    url: https://forums.theminusworld.net/viewforum.php
+    attribute: f
+    id: 11
+    topics_per_page: 25
+# Thread
+topic:
+    url: https://forums.theminusworld.net/viewtopic.php
+    attribute: t
+    posts_per_page: 20
+# Post
+post:
+    url: https://forums.theminusworld.net/viewtopic.php
+    attribute: p
+    hash: p{id}
+# User
+user:
+    url: https://forums.theminusworld.net/memberlist.php
+    mode: viewprofile
+    attribute: u
+# Pagination
+page_attribute: start
+# Github
+repo: theminusworld/forum-improvements
+label:
+    name: Suggestions Forum
+    color: 21355D
+
+
