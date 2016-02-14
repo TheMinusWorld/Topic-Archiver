@@ -32,7 +32,7 @@ server.
 
 `./create-topic-markdown.py`
 
-This'll generate a `topics` folder and make markdown files for each topic included, in the format of [topic number].md (example: `topics/20.md` would be the 'How to Suggest Things' thread)
+This'll generate a `topics` folder and make markdown files for each topic included, in the format of [topic number].md (example: `topics/20.md` would be the 'How to Suggest Things' topic)
 
 ### Post to Github Issues
 
@@ -61,3 +61,15 @@ If you meet those requirements you can Install the other requirements with:
 4. `./update-requirements.sh`
     - (optional) for updating requirements to current version
         (may break things)
+
+## Known Issues
+
+1.  Some post formatting doesn't end up in very nice markdown.
+The most notable example here is quote tags. I don't know the best way to
+approach this without writing an html to markdown parser myself
+(which I don't want to do).
+2. If a topic has messed up html, it may not load all the posts on that page.
+    It's a rare enough issue where it's not a huge deal but double check your
+    topics to make sure you're not missing any posts
+
+
