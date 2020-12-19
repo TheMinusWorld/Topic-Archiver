@@ -1,5 +1,11 @@
 # Minus World Topic Archiver
 
+## Support Notice
+
+This project will no longer work. It relied on the Minus World original forums, which no longer exist. There is no desire or need to update this to the current iteration or maintain this at all.
+
+## Description
+
 This script parses Minus World forums. It relies on the Minus World HTML
 template, which is custom, so it probably won't work anywhere else.
 
